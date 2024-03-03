@@ -4,15 +4,14 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from AnonXMusic import app
-from AnonXMusic.core.call import Anony, autoend
-from AnonXMusic.utils.database import get_client, is_active_chat, is_autoend
-
+from WtfAno import app
+from WtfAno.core.call import AnoxDx, autoend
+from WtfAno.utils.database import get_client, is_active_chat, is_autoend
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(900):
-            from AnonXMusic.core.userbot import assistants
+            from WtfAno.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
@@ -59,7 +58,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Anony.stop_stream(chat_id)
+                    await AnoxDx.stop_stream(chat_id)
                 except:
                     continue
                 try:
