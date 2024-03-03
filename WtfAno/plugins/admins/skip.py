@@ -74,7 +74,7 @@ async def skip(cli, message: Message, _, chat_id):
                     reply_markup=close_markup(_),
                 )
                 try:
-                    return await Anony.stop_stream(chat_id)
+                    return await AnoxDx.stop_stream(chat_id)
                 except:
                     return
         except:
@@ -85,7 +85,7 @@ async def skip(cli, message: Message, _, chat_id):
                     ),
                     reply_markup=close_markup(_),
                 )
-                return await Anony.stop_stream(chat_id)
+                return await AnoxDx.stop_stream(chat_id)
             except:
                 return
     queued = check[0]["file"]
