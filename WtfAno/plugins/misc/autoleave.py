@@ -2,7 +2,7 @@ import asyncio
 from datetime import datetime
 
 from pyrogram.enums import ChatType
-
+Anony
 import config
 from WtfAno import app
 from WtfAno.core.call import AnoxDx, autoend
