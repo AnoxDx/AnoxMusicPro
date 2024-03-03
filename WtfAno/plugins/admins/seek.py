@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import YouTube, app
-from AnonXMusic.core.call import Anony
-from AnonXMusic.misc import db
-from AnonXMusic.utils import AdminRightsCheck, seconds_to_min
-from AnonXMusic.utils.inline import close_markup
+from WtfAno import YouTube, app
+from WtfAno.core.call import AnoxDx
+from WtfAno.misc import db
+from WtfAno.utils import AdminRightsCheck, seconds_to_min
+from WtfAno.utils.inline import close_markup
 from config import BANNED_USERS
 
 
@@ -56,7 +56,7 @@ async def seek_comm(cli, message: Message, _, chat_id):
     if "index_" in file_path:
         file_path = playing[0]["vidid"]
     try:
-        await Anony.seek_stream(
+        await AnoxDx.seek_stream(
             chat_id,
             file_path,
             seconds_to_min(to_seek),
