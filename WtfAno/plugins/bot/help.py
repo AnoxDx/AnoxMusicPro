@@ -11,7 +11,7 @@ from WtfAno.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
 
-@bot.on_callback_query()
+@app.on_callback_query()
 def callback_query(Client, CallbackQuery):
      if CallbackQuery.data == "Page1":
         PAGE_BUTTONS = [
