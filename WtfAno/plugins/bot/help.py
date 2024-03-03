@@ -50,7 +50,7 @@ async def help_com_group(client, message: Message, _):
     keyboard = private_help_panel(_)
     await message.reply_text(_["help_2"], reply_markup=InlineKeyboardMarkup(keyboard))
     
-@app.on_callback_query(filters.regex("Page1") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("Page1"))
 repo1 = "https://graph.org/file/513da5a8bd5c39bd1b78f.mp4"
 upl1 = InlineKeyboardMarkup(
         [
