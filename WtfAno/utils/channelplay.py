@@ -1,4 +1,4 @@
-from AnonXMusic import app
+from WtfAno import app
 from AnonXMusic.utils.database import get_cmode
 
 
