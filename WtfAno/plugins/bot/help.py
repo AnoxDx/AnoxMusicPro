@@ -58,7 +58,7 @@ upl1 = InlineKeyboardMarkup(
                     callback_data="BACK_BUTTON",
                 )
             ]
-        ]
+        ] )
 @app.on_callback_query(filters.regex("Page1"))
 async def callback_query(client, CallbackQuery):
      await CallbackQuery.edit_message_media(photo = "https://graph.org/file/513da5a8bd5c39bd1b78f.mp4", reply_markup=upl1)
