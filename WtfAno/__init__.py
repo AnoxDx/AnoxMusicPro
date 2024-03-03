@@ -1,4 +1,4 @@
-from WtfAno.core.bot import Anony
+from WtfAno.core.bot import AnoxDx
 from WtfAno.core.dir import dirr
 from WtfAno.core.git import git
 from WtfAno.core.userbot import Userbot
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = Anony()
+app = AnoxDx()
 userbot = Userbot()
 
 
