@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from WtfAno import app
-from WtfAno.core.call import Anony
+from WtfAno.core.call import AnoxDx
 from WtfAno.utils import bot_sys_stats
 from WtfAno.utils.decorators.language import language
 from WtfAno.utils.inline import supp_markup
