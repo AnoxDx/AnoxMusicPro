@@ -51,7 +51,7 @@ async def help_com_group(client, message: Message, _):
     await message.reply_text(_["help_2"], reply_markup=InlineKeyboardMarkup(keyboard))
 
 if CallbackQuery.data == "Page1":
-    await CallbackQuery.edit_message_media(media = config.REPO_IMG_URL, reply_markup=keyboard)
+    CallbackQuery.edit_message_media(media = config.REPO_IMG_URL, reply_markup=keyboard)
 
 @app.on_callback_query(filters.regex("help_callback") & ~BANNED_USERS)
 @languageCB
