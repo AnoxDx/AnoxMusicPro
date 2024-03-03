@@ -116,7 +116,7 @@ async def stream(
         if count == 0:
             return
         else:
-            link = await AnonyBin(msg)
+            link = await AnoxDxBin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
