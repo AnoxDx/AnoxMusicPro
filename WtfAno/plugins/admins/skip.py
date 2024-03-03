@@ -11,7 +11,6 @@ from WtfAno.utils.inline import close_markup, stream_markup
 from WtfAno.utils.stream.autoclear import auto_clean
 from WtfAno.utils.thumbnails import get_thumb
 from config import BANNED_USERS
-import Anony as AnoxDx
 
 @app.on_message(
     filters.command(["skip", "cskip", "next", "cnext"]) & filters.group & ~BANNED_USERS
