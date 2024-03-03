@@ -6,7 +6,7 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
 from WtfAno import app
-from WtfAno.core.call import Anony
+from WtfAno.core.call import AnoxDx
 from WtfAno.misc import db
 from WtfAno.utils.database import get_assistant, get_authuser_names, get_cmode
 from WtfAno.utils.decorators import ActualAdminCB, AdminActual, language
