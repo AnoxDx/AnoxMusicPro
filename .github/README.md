@@ -1,5 +1,5 @@
 <h2 align="center">
-    ──「 ᴀɴᴏɴ ダ ᴍᴜsɪᴄ 」──
+    ──「 ᴀɴᴏXᴍᴜꜱɪᴄ Pʀᴏ 」──
 </h2>
 
 <p align="center">
