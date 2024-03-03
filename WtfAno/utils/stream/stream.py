@@ -3,7 +3,7 @@ from random import randint
 from typing import Union
 
 from pyrogram.types import InlineKeyboardMarkup
-Anony
+
 import config
 from WtfAno import Carbon, YouTube, app
 from WtfAno.core.call import AnoxDx
@@ -165,7 +165,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Anony.join_call(
+            await AnoxDx.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
