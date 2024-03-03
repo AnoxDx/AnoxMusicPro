@@ -11,7 +11,7 @@ from WtfAno.misc import db
 from WtfAno.utils.database import add_active_video_chat, is_active_chat
 from WtfAno.utils.exceptions import AssistantErr
 from WtfAno.utils.inline import aq_markup, close_markup, stream_markup
-from WtfAno.utils.pastebin import AnonyBin
+from WtfAno.utils.pastebin import AnoxDxBin
 from WtfAno.utils.stream.queue import put_queue, put_queue_index
 from WtfAno.utils.thumbnails import get_thumb
 
