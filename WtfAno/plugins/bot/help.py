@@ -54,7 +54,7 @@ async def help_com_group(client, message: Message, _):
 @languageCB
 async def callback_query(client, CallbackQuery, _):
     if CallbackQuery.data == "Page1":
-        await CallbackQuery.edit_photo(photo = config.REPO_IMG_URL, reply_markup=keyboard)
+        await app.edit_photo(photo = config.REPO_IMG_URL, reply_markup=keyboard)
 
 @app.on_callback_query(filters.regex("help_callback") & ~BANNED_USERS)
 @languageCB
