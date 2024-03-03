@@ -11,18 +11,6 @@ from WtfAno.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT, REPO_IMG_URL
 from strings import get_string, helpers
 
-@app.on_callback_query()
-def callback_query(Client, CallbackQuery):
-     if CallbackQuery.data == "Page1":
-        PAGE_BUTTONS = [
-            [
-                InlineKeyboardButton('⟲ ʙᴀᴄᴋ', callback_data="settings_back_helper")
-            ]
-        ]
-        CallbackQuery.edit_message_photo(
-            photo = config.REPO_IMG_URL,
-            reply_markup=InlineKeyboardMarkup(PAGE_BUTTONS)
-        )
 @app.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
 @app.on_callback_query(filters.regex("settings_back_helper") & ~BANNED_USERS)
 async def helper_private(
