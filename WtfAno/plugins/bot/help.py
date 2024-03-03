@@ -8,7 +8,7 @@ from WtfAno.utils import help_pannel
 from WtfAno.utils.database import get_lang
 from WtfAno.utils.decorators.language import LanguageStart, languageCB
 from WtfAno.utils.inline.help import help_back_markup, private_help_panel
-from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
+from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT, REPO_IMG_URL
 from strings import get_string, helpers
 
 @app.on_callback_query()
