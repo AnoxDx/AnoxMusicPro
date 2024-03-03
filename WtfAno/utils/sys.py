@@ -2,7 +2,7 @@ import time
 
 import psutil
 
-from AnonXMusic.misc import _boot_
+from WtfAno.misc import _boot_
 from AnonXMusic.utils.formatters import get_readable_time
 
 
