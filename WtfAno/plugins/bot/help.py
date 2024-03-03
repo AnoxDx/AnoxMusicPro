@@ -49,7 +49,7 @@ async def helper_private(
 async def help_com_group(client, message: Message, _):
     keyboard = private_help_panel(_)
     await message.reply_text(_["help_2"], reply_markup=InlineKeyboardMarkup(keyboard))
-
+repo1 = "https://graph.org/file/513da5a8bd5c39bd1b78f.mp4"
 upl1 = InlineKeyboardMarkup(
         [
             [
@@ -58,10 +58,12 @@ upl1 = InlineKeyboardMarkup(
                     callback_data="BACK_BUTTON",
                 )
             ]
-        ] )
-@app.on_callback_query(filters.regex("Page1"))
-async def callback_query(client, CallbackQuery):
-     await CallbackQuery.edit_message_media(photo = "https://graph.org/file/513da5a8bd5c39bd1b78f.mp4", reply_markup=upl1)
+        ] 
+)
+@app.on_callback_query(filters.regex("Page1") & ~BANNED_USERS)
+@languageCB
+async def callback_query(client, CallbackQuery, _):
+     await CallbackQuery.edit_message_media(photo = repo1, reply_markup=upl1)
 
 @app.on_callback_query(filters.regex("help_callback") & ~BANNED_USERS)
 @languageCB
