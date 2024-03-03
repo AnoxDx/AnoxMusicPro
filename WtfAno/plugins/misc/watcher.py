@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from WtfAno import app
-from WtfAno.core.call import Anony
+from WtfAno.core.call import AnoxDx
 
 welcome = 20
 close = 30
