@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.core.call import Anony
-from AnonXMusic.utils import bot_sys_stats
-from AnonXMusic.utils.decorators.language import language
-from AnonXMusic.utils.inline import supp_markup
+from WtfAno import app
+from WtfAno.core.call import Anony
+from WtfAno.utils import bot_sys_stats
+from WtfAno.utils.decorators.language import language
+from WtfAno.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 
