@@ -1,7 +1,7 @@
 from typing import Union
 
 from pyrogram import filters, types
-from pyrogram.types import InlineKeyboardMarkup, Message
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
 from WtfAno import app
 from WtfAno.utils import help_pannel
@@ -14,6 +14,11 @@ from strings import get_string, helpers
 @app.on_callback_query()
 def callback_query(Client, CallbackQuery):
      if CallbackQuery.data == "Page1":
+        PAGE_BUTTONS = [
+            [
+                InlineKeyboardButton('⟲ ʙᴀᴄᴋ', callback_data="settings_back_helper")
+            ]
+        ]
         CallbackQuery.edit_photo(
             photo = config.REPO_IMG_URL,
             reply_markup=InlineKeyboardMarkup(PAGE_BUTTONS)
