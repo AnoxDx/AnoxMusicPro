@@ -63,7 +63,7 @@ upl1 = InlineKeyboardMarkup(
 @app.on_callback_query(filters.regex("Page1") & ~BANNED_USERS)
 @languageCB
 async def callback_query(client, CallbackQuery, _):
-     await CallbackQuery.edit_message_media(InputMediaPhoto("repo1"), reply_markup=upl1)
+     await CallbackQuery.edit_message_media(repo1, reply_markup=upl1)
 
 @app.on_callback_query(filters.regex("help_callback") & ~BANNED_USERS)
 @languageCB
