@@ -5,7 +5,7 @@ import aiohttp
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 from unidecode import unidecode
 from youtubesearchpython.__future__ import VideosSearch
-from SYSTUM import app
+from WtfAno import app
 from config import YOUTUBE_IMG_URL
 
 def changeImageSize(maxWidth, maxHeight, image):
@@ -107,9 +107,9 @@ async def get_thumb(videoid):
     enhancer = ImageEnhance.Brightness(background)
     background = enhancer.enhance(0.6)
     draw = ImageDraw.Draw(background)
-    arial = ImageFont.truetype("SYSTUM/assets/font2.ttf", 30)
-    font = ImageFont.truetype("SYSTUM/assets/font.ttf", 30)
-    title_font = ImageFont.truetype("SYSTUM/assets/font3.ttf", 45)
+    arial = ImageFont.truetype("WtfAno/assets/font2.ttf", 30)
+    font = ImageFont.truetype("WtfAno/assets/font.ttf", 30)
+    title_font = ImageFont.truetype("WtfAno/assets/font3.ttf", 45)
 
 
     circle_thumbnail = crop_center_circle(youtube, 400, 20)
