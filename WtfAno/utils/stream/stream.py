@@ -3,7 +3,7 @@ from random import randint
 from typing import Union
 
 from pyrogram.types import InlineKeyboardMarkup
-NameError
+
 import config
 from WtfAno import Carbon, YouTube, app
 from WtfAno.core.call import AnoxDx
