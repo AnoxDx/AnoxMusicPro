@@ -1,7 +1,7 @@
 import random
 from typing import Dict, List, Union
 
-from WtfAn0 import userbot
+from WtfAno import userbot
 from WtfAno.core.mongo import mongodb
 
 authdb = mongodb.adminauth
