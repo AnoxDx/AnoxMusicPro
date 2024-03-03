@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS
-from AnonXMusic.utils.database import add_gban_user, remove_gban_user
-from AnonXMusic.utils.decorators.language import language
-from AnonXMusic.utils.extraction import extract_user
+from WtfAno import app
+from WtfAno.misc import SUDOERS
+from WtfAno.utils.database import add_gban_user, remove_gban_user
+from WtfAno.utils.decorators.language import language
+from WtfAno.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
