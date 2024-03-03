@@ -83,7 +83,7 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-
+REPO_IMG_URL = getenv("REPO_IMG_URL", "https://graph.org/file/513da5a8bd5c39bd1b78f.mp4")
 START_IMG_URL = getenv(
     "START_IMG_URL", "https://graph.org/file/2fea203f4d11f17edf7ce.jpg"
 )
