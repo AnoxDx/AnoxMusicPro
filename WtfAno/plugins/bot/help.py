@@ -50,11 +50,8 @@ async def help_com_group(client, message: Message, _):
     keyboard = private_help_panel(_)
     await message.reply_text(_["help_2"], reply_markup=InlineKeyboardMarkup(keyboard))
 
-@app.on_callback_query(filters.regex("Page1") & ~BANNED_USERS)
-@languageCB
-async def callback_query(client, CallbackQuery, _):
-    if CallbackQuery.data == "Page1":
-        await CallbackQuery.edit_message_photo(photo = config.REPO_IMG_URL, reply_markup=keyboard)
+if CallbackQuery.data == "Page1":
+    await CallbackQuery.edit_message_media(media = config.REPO_IMG_URL, reply_markup=keyboard)
 
 @app.on_callback_query(filters.regex("help_callback") & ~BANNED_USERS)
 @languageCB
