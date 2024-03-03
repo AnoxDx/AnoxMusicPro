@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from WtfAno import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from WtfAno.core.call import Anony
+from WtfAno.core.call import AnoxDx
 from WtfAno.utils import seconds_to_min, time_to_seconds
 from WtfAno.utils.channelplay import get_channeplayCB
 from WtfAno.utils.decorators.language import languageCB
