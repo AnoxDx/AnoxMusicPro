@@ -50,6 +50,19 @@ async def help_com_group(client, message: Message, _):
     keyboard = private_help_panel(_)
     await message.reply_text(_["help_2"], reply_markup=InlineKeyboardMarkup(keyboard))
 
+@app.on_message(filters.regex("Page1") & ~BANNED_USERS)
+@languageCB
+async def repo_stats(client, CallbackQuery, _):
+med = InputMediaPhoto(media=config.REPO_IMG_URL)
+upl = back_stats_buttons(_)
+text = "ok"
+    try:
+        await CallbackQuery.edit_message_media(media=med, reply_markup=upl)
+            except MessageIdInvalid:
+        await CallbackQuery.message.reply_photo(
+            photo=config.STATS_IMG_URL, caption=text, reply_markup=upl
+        )
+
 @app.on_callback_query(filters.regex("help_callback") & ~BANNED_USERS)
 @languageCB
 async def helper_cb(client, CallbackQuery, _):
