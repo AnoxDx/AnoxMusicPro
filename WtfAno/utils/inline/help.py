@@ -105,17 +105,18 @@ def help_back_markup(_):
     )
     return upl
 
-def dos_panel(_):
-    upl1 = InlineKeyboardMarkup(
+def help_pannel1(_):
+    upll = InlineKeyboardMarkup(
         [
-        InlineKeyboardButton(
-            text=_["BACK_BUTTON"],
-            callback_data=f"settingsback_helper",
-               ),
-        InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=f"close"),
+            [
+                InlineKeyboardButton(
+                    text=_["CLOSE_BUTTON"],
+                    callback_data=f"close",
+                ),
+            ]
         ]
     )
-    return upl1
+    return upll
 
 def private_help_panel(_):
     buttons = [
