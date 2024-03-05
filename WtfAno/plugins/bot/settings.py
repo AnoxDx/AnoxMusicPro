@@ -92,21 +92,10 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 @app.on_callback_query(filters.regex("Page1") & ~BANNED_USERS)
 @languageCB
 async def page_stats(client, CallbackQuery, _):
-    await CallbackQuery.answer()
     upl = back_stats_buttons(_)
-    try:
-        await CallbackQuery.answer()
-    except:
-        pass
-    await CallbackQuery.edit_message_text(_["gstats_11"])
     text = _["gstats_11"],
     med = InputMediaPhoto(media=config.REPO_IMG_URL, caption=text)
-    try:
-        await CallbackQuery.edit_message_media(media=med, reply_markup=upl)
-    except MessageIdInvalid:
-        await CallbackQuery.message.reply_photo(
-            photo=config.REPO_IMG_URL, caption=text, reply_markup=upl
-        )
+    await CallbackQuery.edit_message_media(media=med, reply_markup=upl)
 
 @app.on_callback_query(
     filters.regex(
