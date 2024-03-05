@@ -7,7 +7,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     Message,
 )
-
+from pyrogram.types import InputMediaPhoto
 from WtfAno import app
 from WtfAno.utils.database import (
     add_nonadmin_chat,
