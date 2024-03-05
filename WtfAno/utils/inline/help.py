@@ -112,6 +112,7 @@ def dos_panel(_, START: Union[bool, int] = None):
             text=_["BACK_BUTTON"],
             callback_data=f"settingsback_helper",
      )
+    ]
      return upl
 
 def private_help_panel(_):
