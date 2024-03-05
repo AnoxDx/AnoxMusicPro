@@ -94,8 +94,7 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 @languageCB
 async def overall_stats(client, CallbackQuery, _):
     upl = back_stats_buttons(_)
-    med = InputMediaPhoto(media=config.REPO_IMG_URL, caption=text)
-    text = _["gstats_11"]
+    med = InputMediaPhoto(media=config.REPO_IMG_URL)
     await CallbackQuery.edit_message_media(media=med, reply_markup=upl)
     
 @app.on_callback_query(
