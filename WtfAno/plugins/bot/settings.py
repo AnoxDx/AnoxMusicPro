@@ -37,6 +37,7 @@ from WtfAno.utils.inline.settings import (
 from WtfAno.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 from WtfAno.utils.inline.stats import back_stats_buttons, stats_buttons
+from WtfAno.utils.inline.help import help_back_markup
 
 
 @app.on_message(
@@ -93,7 +94,7 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 @app.on_callback_query(filters.regex("Page1") & ~BANNED_USERS)
 @languageCB
 async def overall_stats(client, CallbackQuery, _):
-    upl = back_stats_buttons(_)
+    upl = help_back_markup(_)
     med = InputMediaPhoto(media=config.REPO_IMG_URL)
     await CallbackQuery.edit_message_media(media=med, reply_markup=upl)
     
