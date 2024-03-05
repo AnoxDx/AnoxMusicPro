@@ -93,7 +93,7 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 
 @app.on_callback_query(filters.regex("Page1") & ~BANNED_USERS)
 @languageCB
-async def overall_stats(client, CallbackQuery, _):
+async def help_pannel1(client, CallbackQuery, _):
     upll = help_pannel1(_)
     med = InputMediaPhoto(media=config.REPO_IMG_URL)
     await CallbackQuery.edit_message_media(media=med, reply_markup=upll)
