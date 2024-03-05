@@ -37,7 +37,7 @@ from WtfAno.utils.inline.settings import (
 from WtfAno.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 from WtfAno.utils.inline.stats import back_stats_buttons, stats_buttons
-from WtfAno.utils.inline.help import help_back_markup
+from WtfAno.utils.inline.help import help_pannel1
 
 
 @app.on_message(
