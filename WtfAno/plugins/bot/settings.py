@@ -94,13 +94,8 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 async def page_stats(client, CallbackQuery, _):
     upl = back_stats_buttons(_)
     text = _["gstats_11"],
-    med = InputMediaPhoto(media=config.REPO_IMG_URL, caption=tex)
-    try:
-        await CallbackQuery.edit_message_media(media=med, reply_markup=upl)
-            except MessageIdInvalid:
-        await CallbackQuery.message.reply_photo(
-            photo=config.REPO_IMG_URL, caption=text, reply_markup=upl
-        )
+    med = (media=config.REPO_IMG_URL, caption=tex)
+    await CallbackQuery.edit_message_media(media=med, reply_markup=upl)
     
 @app.on_callback_query(
     filters.regex(
