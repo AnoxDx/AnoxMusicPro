@@ -94,7 +94,8 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 async def page_stats(client, CallbackQuery, _):
     upl = back_stats_buttons(_)
     text = _["gstats_11"],
-    await CallbackQuery.edit_message_media(media=config.REPO_IMG_URL, caption=text, reply_markup=upl)
+    med="https://graph.org/file/513da5a8bd5c39bd1b78f.mp4"
+    await CallbackQuery.edit_message_media(media=med, caption=text, reply_markup=upl)
     
 @app.on_callback_query(
     filters.regex(
