@@ -7,6 +7,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     Message,
 )
+import config
 from pyrogram.types import InputMediaPhoto
 from WtfAno import app
 from WtfAno.utils.database import (
