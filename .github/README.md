@@ -1,5 +1,5 @@
 <h2 align="center">
-    ──「 AɴᴏXᴍᴜꜱɪᴄ Pʀᴏ 」──
+    𝖠𝗇𝗈𝗑 𝖬𝗎𝗌𝗂𝖼 𝖯𝗋𝗈
 </h2>
 
 <p align="center">
