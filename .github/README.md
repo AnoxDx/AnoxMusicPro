@@ -1,10 +1,11 @@
 <h2 align="center">
     𝖠𝗇𝗈𝗑 𝖬𝗎𝗌𝗂𝖼 𝖯𝗋𝗈
 </h2>
-
+[<img src="https://github.com/AnoxDx/AnoxMusicPro/blob/master/strings/hr.gif"/>](https://github.com/AnoxDx)
 <p align="center">
   <img src="https://graph.org/file/0baa533826faa9500b4f2.jpg">
 </p>
+[<img src="https://github.com/AnoxDx/AnoxMusicPro/blob/master/strings/hr.gif"/>](https://github.com/AnoxDx)
 
 <p align="center">
 <a href="https://github.com/AnoxDx/AnoxMusicPro/stargazers"><img src="https://img.shields.io/github/stars/AnoxDx/AnoXMusicPro?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
