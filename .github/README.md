@@ -55,6 +55,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 `bash start`
 - For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
 ━━━━━━━━━━━━━━━━━━━━
+- <b> [![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) </b>
 
 <h3 align="center">
     𝖵𝗂𝗌𝗂𝗍 𝖮𝗎𝗋 𝖳𝖾𝖺𝗆
@@ -67,5 +68,3 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 <p align="center">
 <a href="https://telegram.me/BotsDom"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
-
-- <b> [![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) </b>
