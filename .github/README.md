@@ -14,6 +14,8 @@
 <a href="https://github.com/AnoxDx/AnoxMusicPro/commits/AnoxDx"> <img src="https://img.shields.io/github/last-commit/AnoxDx/AnoXMusicPro?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
+[![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 <p align="center">
   <img src="https://graph.org/file/e229515960b9c1c3e90f7.jpg">
 </p>
