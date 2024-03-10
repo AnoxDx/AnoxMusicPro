@@ -57,7 +57,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 ━━━━━━━━━━━━━━━━━━━━
 
 <h3 align="center">
-    ─「 sᴜᴩᴩᴏʀᴛ 」─
+    𝖵𝗂𝗌𝗂𝗍 𝖮𝗎𝗋 𝖳𝖾𝖺𝗆
 </h3>
 
 <p align="center">
