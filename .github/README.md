@@ -1,10 +1,13 @@
 <h2 align="center">
     𝖠𝗇𝗈𝗑 𝖬𝗎𝗌𝗂𝖼 𝖯𝗋𝗈
 </h2>
+
 [<img src="https://github.com/AnoxDx/AnoxMusicPro/blob/master/strings/hr.gif"/>](https://github.com/AnoxDx)
+
 <p align="center">
   <img src="https://graph.org/file/0baa533826faa9500b4f2.jpg">
 </p>
+
 [<img src="https://github.com/AnoxDx/AnoxMusicPro/blob/master/strings/hr.gif"/>](https://github.com/AnoxDx)
 
 <p align="center">
