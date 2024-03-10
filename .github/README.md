@@ -14,8 +14,6 @@
 <a href="https://github.com/AnoxDx/AnoxMusicPro/commits/AnoxDx"> <img src="https://img.shields.io/github/last-commit/AnoxDx/AnoXMusicPro?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-[![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
 <p align="center">
   <img src="https://graph.org/file/e229515960b9c1c3e90f7.jpg">
 </p>
@@ -70,4 +68,4 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 <a href="https://telegram.me/BotsDom"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʏᴜᴋᴋɪ](https://github.com/TeamYukki) ғᴏʀ [ʏᴜᴋᴋɪ ᴍᴜsɪᴄ ʙᴏᴛ](https://github.com/TeamYukki/YukkiMusicBot)_ </b>
+- <b> [![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) </b>
