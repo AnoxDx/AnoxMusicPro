@@ -13,7 +13,7 @@
 <p align="center">
 <a href="https://github.com/AnoxDx/AnoxMusicPro/stargazers"><img src="https://img.shields.io/github/stars/AnoxDx/AnoXMusicPro?color=black&logo=github&logoColor=white&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/AnoxDx/AnoxMusicPro/network/members"> <img src="https://img.shields.io/github/forks/AnoxDx/AnoXMusicPro?color=black&logo=github&logoColor=white&style=for-the-badge" /></a>
-<a href="https://github.com/AnonymousX1025/AnonXMusic/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/AnonymousX1025/AnonXMusic/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-yellow?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://github.com/AnoxDx/AnoxMusicPro/commits/AnoxDx"> <img src="https://img.shields.io/github/last-commit/AnoxDx/AnoXMusicPro?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 </p>
